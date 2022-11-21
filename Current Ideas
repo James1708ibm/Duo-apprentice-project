@@ -6,5 +6,3 @@ var celsius = Kelvin - 273;
 //floor will round the number from its decimal point
 var farenheit = Math.floor(celsius *(9/5) + 32);
 console.log(`The temperture is ${farenheit} degrees Farenheit.`);
-newton = Math.floor(celsius * (33/100));
-console.log(`The temperture is ${newton} degrees in Newtons.`);
