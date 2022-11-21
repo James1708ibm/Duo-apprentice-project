@@ -1,0 +1,10 @@
+//Kelvin value is a constant/unchangeable
+const Kelvin = 293;
+// Value of celsius is set 273 less than Kelvin
+var celsius = Kelvin - 273;
+// the formula to convert celsius to farenheit
+//floor will round the number from its decimal point
+var farenheit = Math.floor(celsius *(9/5) + 32);
+console.log(`The temperture is ${farenheit} degrees Farenheit.`);
+newton = Math.floor(celsius * (33/100));
+console.log(`The temperture is ${newton} degrees in Newtons.`);
