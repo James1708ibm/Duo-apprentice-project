@@ -2,16 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=MedievalSharp" />
     </head>
     <body>
         <div id="Title_Card">
-            <h1> Game Title </h1>
+            <h1 id="Game_Title"> Game Title </h1>
             <p> The legendary Vlad stubbed his toe and now all furniture must go! The war on furniture begins!</p>
-            <button> Start Game</button>
-            <button> Mute Sound </button>
+            <button id="Start_Button" >Start Game</button>
+            <input id="Mute_Button" type="image" src="Music_Note.jpg"></input>
             <!-- <audio> <source src="Vlad's_laugh.mp3" type="audio/mpeg" /> </audio> -->
-            <audio src="Vlad's_laugh.mp3"autoplay controls loop />
-            
+            <!-- <audio src="Vlad's_laugh.mp3"autoplay controls loop /> -->
+            <audio class="Sound_Control" autoplay="true" loop src="Intro_music.mp3" type="audio/mpeg" />
+
         </div>
+        <script src="main.js"></script>
     </body>
 </html>
