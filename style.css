@@ -21,13 +21,13 @@ p{
 #Mute_Button{
     position:absolute;
     top: 68%;
-    right: 35%;
+    right: 70%;
     height: 60px;
     width: 60px;
 }
 #Start_Button{
     position:absolute;
     top: 68%;
-    right: 45%;
+    right: 30%;
    height: 60px;
 }
