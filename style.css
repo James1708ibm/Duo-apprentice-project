@@ -27,6 +27,7 @@ p{
 }
 #Start_Button{
     position:absolute;
-    top: 70%;
+    top: 68%;
     right: 45%;
+   height: 60px;
 }
