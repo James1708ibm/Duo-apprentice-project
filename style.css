@@ -18,7 +18,7 @@ p{
    font-family: MedievalSharp;
 }
 
-#Mute_Button{
+.Mute_Button{
     position:absolute;
     top: 68%;
     right: 70%;
@@ -30,4 +30,12 @@ p{
     top: 68%;
     right: 30%;
    height: 60px;
+}
+.hide{
+    visibility: hidden;
+    display: none;
+}
+.show{
+    visibility: visible;
+    display: inline-block;
 }
