@@ -1,0 +1,24 @@
+#Title_Card {
+    position: relative;
+    height: 100vh;
+   }
+#Game_Title{
+    color: gold;
+    font-size: 150px;
+   text-align: center;
+   font-family: MedievalSharp;
+}
+
+#Mute_Button{
+    position:absolute;
+    top: 68%;
+    right: 70%;
+    height: 60px;
+    width: 60px;
+}
+#Start_Button{
+    position:absolute;
+    top: 68%;
+    right: 30%;
+   height: 60px;
+}
