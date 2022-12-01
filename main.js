@@ -24,6 +24,17 @@ function Mute_Button_Transition() {
         Mute_Button.src = "Music_Note_Muted.jpg";
     }
     else {
-        Mute_Button.src = "Music_Note.jpg"
+        Mute_Button.src = "Music_Note.jpg";
     }
 }
+/*let window;
+
+main(passedwindow){
+    window = passedwindow;
+    document = window.document;
+
+    let muteElement = document.getElementById("Mute_Button");
+    muteElement.addEventListener("onclick", toggleMute(muteElement));
+Sound_Control = !Muted
+ Muted
+}*/
