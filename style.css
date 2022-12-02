@@ -21,14 +21,14 @@ marquee{
 .Mute_Button{
     position:absolute;
     top: 68%;
-    right: 70%;
+    right: 90%;
     height: 60px;
     width: 60px;
 }
 #Start_Button{
     position:absolute;
     top: 68%;
-    right: 30%;
+    right: 10%;
    height: 60px;
 }
 .hide{
