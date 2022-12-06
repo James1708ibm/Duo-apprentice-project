@@ -6,6 +6,8 @@ marquee{
     color:snow;
     text-align: center;
     font-size: 25px ;
+    position: absolute;
+    top: 30%;
 }
 #Title_Card {
     position: relative;
@@ -21,14 +23,14 @@ marquee{
 .Mute_Button{
     position:absolute;
     top: 68%;
-    right: 90%;
+    left: 43%;
     height: 60px;
     width: 60px;
 }
 #Start_Button{
     position:absolute;
     top: 68%;
-    right: 10%;
+    right: 45%;
    height: 60px;
 }
 .hide{
@@ -38,4 +40,10 @@ marquee{
 .show{
     visibility: visible;
     display: inline-block;
+}
+#side_Animation{
+    position: fixed;
+    top: 10%;
+    right: 15%;
+    background: url("C:\Users\7J8020897\Documents\GitHub\Duo-apprentice-project\ottoman.png") no-repeat;
 }
