@@ -27,6 +27,7 @@ function Mute_Button_Transition() {
         Mute_Button.src = "Music_Note.jpg";
     }
 }
+setTimeout()
 /*let window;
 
 main(passedwindow){
