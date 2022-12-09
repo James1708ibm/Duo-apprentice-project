@@ -9,38 +9,44 @@ marquee{
     position: absolute;
     top: 30%;
 }
-#Title_Card {
+#title-card-container {
     position: relative;
-    height: 100vh;
+    /* position: absolute; */
+    height: 100%;
    }
-#Game_Title{
+#game-title{
     color: gold;
-    font-size: 150px;
+    /* font-size: 150px; */
+    font-size: 120px;
    text-align: center;
    font-family: MedievalSharp;
 }
 
-.Mute_Button{
+.mute-button{
     position:absolute;
-    top: 69%;
+    /* position: relative; */
+    /* top: 69%; */
+    top: 303%;
     left: 44%;
     height: 38px;
     width: 38px;
 }
-#Start_Button{
+#start-button{
     position:absolute;
-    top: 68%;
+    /* position: relative; */
+    /* top: 68%; */
+    top: 300%;
     right: 45%;
-   height: 40px;
-   border-color:white;
-   color: gold;
-   text-align: center;
-   font-family: MedievalSharp;
-   background-color: black;
-   border-width: 0.5mm;
-   font-size: 20px;
+    height: 40px;
+    border-color:white;
+    color: gold;
+    text-align: center;
+    font-family: MedievalSharp;
+    background-color: black;
+    border-width: 0.5mm;
+    font-size: 20px;
 }
-#Start_Button:hover{
+#start-button:hover{
     color:red;
     border-color:gold;
     /* transform: scale(1.5); */
@@ -53,9 +59,67 @@ marquee{
     visibility: visible;
     display: inline-block;
 }
-#side_Animation{
+/* #side_Animation{
     position: fixed;
     top: 10%;
     right: 15%;
     background: url("C:\Users\7J8020897\Documents\GitHub\Duo-apprentice-project\ottoman.png") no-repeat;
-}
+} */
+
+#scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    /* height: 100px; */
+    /* text-align: center; */
+    overflow: hidden;
+    
+    position: absolute;
+    /* position: relative; */
+    /* top: 30%; */
+    right: 25%;
+
+    top: 100%;
+  }
+  
+  #scroll-text {
+    /* height: 100%; */
+    text-align: center;
+    color: snow;
+    font-size: 25px ;
+    /* position: absolute; */
+    
+    
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation: my-animation 30s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
