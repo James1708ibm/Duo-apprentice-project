@@ -1,0 +1,27 @@
+<!-- <h1 id="game-title"> {{app.title}} </h1> -->
+<!-- <div class="title-card">
+    <div class="title-title">Furniture Crusade</div>
+</div> -->
+<div class="title-card">
+    <h1 class="game-title">{{title.title}}</h1>
+
+    <div id="scroll-container">
+        <div id="scroll-text">
+            Long ago lived a royal named Vlad. <br>
+            One day while on his way to make ketchup biscuits for breakfast,<br>
+            he stubbed his toe on an ottoman.<br>
+            In that moment,<br> 
+            he realized the ottoman served no purpose and burned it.<br>
+            From then he vowed to make everyone in the world a minimalist.<br>
+            Agree to his demands before he burns your furniture!<br>
+            The legendary Vlad stubbed his toe and now all furniture must go!<br>
+            The war on furniture begins!
+        </div>
+    </div>
+
+    <div class="buttons">
+        <input class="mute-button" type="image" [src]="muteImageSource" (click)="soundControl()" >
+        <button id="start-button" >Start Game</button>    
+    </div>
+    <audio class="sound-control" autoplay="true" loop src="./assets/audio/Intro_music.mp3" type="audio/mpeg" [muted]="muted" ></audio>
+</div>

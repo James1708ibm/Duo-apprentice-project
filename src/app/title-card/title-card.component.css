@@ -1,0 +1,91 @@
+.title-card{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.game-title{
+    color: gold;
+    font-size: 120px;
+    text-align: center;
+    font-family: MedievalSharp;
+    margin-bottom: 30px;
+}
+
+#scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+#scroll-text {
+  text-align: center;
+  color: snow;
+  font-size: 25px ;
+    
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+    
+  -moz-animation: my-animation 30s linear infinite;
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
+}
+
+.mute-button{
+  margin-top: 5px;
+  height: 38px;
+  width: 38px;
+}
+#start-button{
+    height: 40px;
+    border-color:white;
+    color: gold;
+    text-align: center;
+    font-family: MedievalSharp;
+    background-color: black;
+    border-width: 0.5mm;
+    font-size: 20px;
+}
+#start-button:hover{
+    color:red;
+    border-color:gold;
+    /* transform: scale(1.5); */
+}
+
+  
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
