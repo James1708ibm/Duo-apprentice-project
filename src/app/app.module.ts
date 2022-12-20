@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TitleCardComponent } from './title-card/title-card.component';
+import { MuteButtonComponent } from './mute-button/mute-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleCardComponent
+    TitleCardComponent,
+    MuteButtonComponent
   ],
   imports: [
     BrowserModule
